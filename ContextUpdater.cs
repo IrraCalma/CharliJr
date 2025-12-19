@@ -3,7 +3,7 @@ using TMPro;
 
 public class ContextUpdater : MonoBehaviour
 {
-    public TextMeshProUGUI contextText;
+    public TMP_Text contextText;
 
     void Start()
     {

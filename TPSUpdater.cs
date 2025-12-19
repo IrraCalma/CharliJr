@@ -3,7 +3,7 @@ using TMPro;
 
 public class TPSUpdater : MonoBehaviour
 {
-    public TextMeshProUGUI tpsText;
+    public TMP_Text tpsText;
 
     void Start()
     {
