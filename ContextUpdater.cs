@@ -3,16 +3,14 @@ using TMPro;
 
 public class ContextUpdater : MonoBehaviour
 {
-    private TextMeshProUGUI contextText;
+    public TextMeshProUGUI contextText;
 
     void Start()
     {
-        // Get the TextMeshPro component for context display (Context_Txt)
-        contextText = GetComponent<TextMeshProUGUI>();
-        
+        // Use the assigned TextMeshProUGUI reference from the inspector
         if (contextText == null)
         {
-            Debug.LogError("ContextUpdater: No TextMeshProUGUI component found on this object!");
+            Debug.LogError("ContextUpdater: No TextMeshProUGUI assigned in the inspector!");
         }
     }
 
