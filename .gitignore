@@ -1,1 +1,1 @@
-Nothing should be ignored based on the provided file changes. The added files (`LLMCharacterStats.cs` and `LLMStatsUIUpdater.cs`) are C# source code files, which should not be ignored. There are no build artifacts, dependencies, or temporary files in the changes that require ignoring.
+Nothing should be ignored based on the provided file changes. The added files (`ContextUpdater.cs` and `TPSUpdater.cs`) are source code files that should be tracked in version control.
