@@ -1,1 +1,31 @@
-Nothing should be ignored based on the provided file changes. The added files (`ContextUpdater.cs` and `TPSUpdater.cs`) are source code files that should be tracked in version control.
+```
+# Build artifacts
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.userprefs
+
+# Dependencies
+packages/
+
+# Logs
+*.log
+
+# User-specific files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+```

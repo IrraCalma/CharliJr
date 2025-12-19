@@ -3,16 +3,14 @@ using TMPro;
 
 public class TPSUpdater : MonoBehaviour
 {
-    private TextMeshProUGUI tpsText;
+    public TextMeshProUGUI tpsText;
 
     void Start()
     {
-        // Get the TextMeshPro component from the burbuja where this script is attached
-        tpsText = GetComponent<TextMeshProUGUI>();
-        
+        // Use the assigned TextMeshProUGUI reference from the inspector
         if (tpsText == null)
         {
-            Debug.LogError("TPSUpdater: No TextMeshProUGUI component found on this object!");
+            Debug.LogError("TPSUpdater: No TextMeshProUGUI assigned in the inspector!");
         }
     }
 
